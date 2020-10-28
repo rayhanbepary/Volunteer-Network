@@ -24,7 +24,7 @@ const Navbar = () => {
                                 }
                                 <Link className="navLink" to="/login">Login</Link>
                                 <Link className="navLink register" to="/register">Register</Link>
-                                <Link className="navLink admin" to="/addEvent">Admin</Link>
+                                <Link className="navLink admin" to="/admin">Admin</Link>
                             </div>
                         </nav>
                     </div>

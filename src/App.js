@@ -40,6 +40,7 @@ function App() {
         <Route exact path="/login/">
           <Login></Login>
         </Route>
+        <Route exact path="/admin" render={() => (window.location = "https://volunteer-network-admin.web.app/")}></Route>
         <PrivateRoute exact path="/register/">
           <Register eventInfo={registerEvent}></Register>
         </PrivateRoute>
